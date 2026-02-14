@@ -913,7 +913,7 @@ const FinalReveal = ({ onComplete }: FinalRevealProps) => {
 
 // Main Game Component
 export default function Home() {
-  const DEV_MODE = false;
+  const DEV_MODE = true;
   const [playerName, setPlayerName] = useState('');
   const [playingLevel, setPlayingLevel] = useState<number | null>(null);
   const [showNameDialog, setShowNameDialog] = useState(true);
@@ -1143,7 +1143,7 @@ export default function Home() {
 
           if (completedLevel === 6) {
             window.open(
-              "https://drive.google.com/YOUR_VIDEO_LINK_HERE",
+              "https://drive.google.com/file/d/1YyoX0IcN6CYJ_m59bSj_lHjKDWN-w-NR/view?usp=sharing",
               "_blank"
             );
             return;
