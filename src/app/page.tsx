@@ -913,7 +913,7 @@ const FinalReveal = ({ onComplete }: FinalRevealProps) => {
 
 // Main Game Component
 export default function Home() {
-  const DEV_MODE = true;
+  const DEV_MODE = false;
   const [playerName, setPlayerName] = useState('');
   const [playingLevel, setPlayingLevel] = useState<number | null>(null);
   const [showNameDialog, setShowNameDialog] = useState(true);
